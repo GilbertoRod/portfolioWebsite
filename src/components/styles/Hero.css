@@ -1,0 +1,59 @@
+
+
+.hero{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-between;
+
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    background-image: url('../../assets/stars.png');
+    background-size: cover;  
+  
+  }
+.intro{
+    margin-right:30px;
+}
+.greeting{
+    font-size: 18px;
+    color: white;
+    margin-right: 12px;
+    color:var(--primary);
+    background-color: rgba(40, 94, 63, 0.334);
+    display: inline-block;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+
+.academic-info{
+    margin-top: 25px;
+
+    
+}
+
+.academic-info p{
+    line-height: 23px;
+    color: rgba(237, 237, 237, 0.611);
+    font-size: 18px;
+
+}
+
+.hero-title{
+   color: white;
+    font-size: 40px;
+}
+.hero-title span{
+    color:var(--primary);
+}
+.hero-about{
+    color: #a8a7ab;
+}
+
+.hero-img{
+    max-width: 450px;
+    object-fit: contain;
+    max-height:375px;
+}

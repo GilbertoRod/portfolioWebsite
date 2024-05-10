@@ -1,21 +1,45 @@
 
 
-.hero{
+.hero-background-stars{
+
+
+    background-image: url('../../assets/stars.png');
+    background-size: cover;  
+    animation: starsAnimation 600s linear infinite;
+  }
+@keyframes starsAnimation {
+
+    0%{
+        background-position: 0vw 0;
+    }
+    100%{
+        background-position: -100vw 0;
+    }
+
+
+
+}
+.hero-container{
     display: flex;
-    padding-top: 100px;
     justify-content: space-between;
+    /* Filters the strength of the stars*/
+    background-color:#0d1323be;
+    height: 75vh;
+    overflow: hidden;
+    padding-top: 100px;
 
     padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 80px;
-
-    background-image: url('../../assets/stars.png');
-    background-size: cover;  
-  
-  }
+}
 .intro{
     margin-right:30px;
+    
+    border-radius: 10px;
+    padding-bottom: 20px;
+    
 }
+
 .greeting{
     font-size: 18px;
     color: white;

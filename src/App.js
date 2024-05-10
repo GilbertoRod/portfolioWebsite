@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import Technologies from "./components/Technologies";
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
     <div className="App">
       
       <Hero/>
-     
+      <Technologies/>
     </div>
   );
 }

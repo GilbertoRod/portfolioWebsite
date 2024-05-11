@@ -12,7 +12,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #06090f;
   padding-bottom: 150px; 
-  padding-top: 0px;
+  padding-top: 100px;
+  overflow-x: hidden;
+
 
 }
 
@@ -21,7 +23,7 @@ code {
     monospace;
 }
 .section-title{
-  background-color: #14141f;
+  background-color: #0e0d1a;
   padding: 5px 20px;
   font-size: 35px;
   color: var(--primary);

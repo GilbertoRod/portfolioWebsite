@@ -11,9 +11,16 @@
   padding: 10px;
   border-radius: 10px;
   gap: 10px;
-  width: 100%;
+  width: 90%;
   max-width: 700px;
+
 }
+@media screen and (max-width:710px) {
+.tech-logos{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
 .technology{
   background-color: #000000d0;
   color: white;

@@ -23,7 +23,7 @@
     height: 75vh;
     overflow: hidden;
     padding-top: 100px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -31,6 +31,7 @@
     margin-right:30px;
     border-radius: 10px;
     padding-bottom: 20px;
+    
     
 }
 
@@ -44,7 +45,7 @@
     padding: 12px;
     border-radius: 7px;
     font-family:Bungee, Poetsen One;
-    line-height: 20px;
+    line-height: 25px;
 
     
 }
@@ -70,3 +71,14 @@
     object-fit: contain;
     max-height:375px;
 }
+@media screen and (max-width:1076px) {
+    .intro{
+        margin-right: 0px;
+    }
+    .hero-container{
+      flex-direction:column;
+      height: auto;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  }

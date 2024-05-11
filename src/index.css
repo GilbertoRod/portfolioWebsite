@@ -42,3 +42,12 @@ code {
   margin: 0px;
   text-shadow: 1px 1px 0px rgb(2, 43, 4),2px 3px 0px rgb(0, 0, 0);
 }
+
+a{
+  text-decoration: none;
+  color: white;
+}
+a:visited{
+  text-decoration: none;
+  color: white;
+}

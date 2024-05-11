@@ -2,12 +2,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 .tech-logos{
   background-color: var(--primary);
   margin-top: 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   padding: 10px;
   border-radius: 10px;
   gap: 10px;
@@ -32,7 +33,7 @@
   border-radius: 10px;
 }
 .tech-icon{
-  color: var(--primary);
+  /* color: var(--primary); */
   height: 25px;
 }
 .technology p{

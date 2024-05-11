@@ -5,7 +5,7 @@ function Projects() {
 
     return (
       <div className='projects-container'>
-      <div className='section-title'>
+      <div className='section-title'  data-aos='zoom-in' data-aos-offset='50'>
         <p>PROJECTS</p>
       </div>
       <div className='cards-wrapper' >

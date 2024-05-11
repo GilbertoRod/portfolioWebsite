@@ -2,7 +2,7 @@ import React from 'react'
 
 function Card({name,description,picture}) {
     return (
-      <div className='card'>
+      <div className='card'  data-aos='flip-left' data-aos-duration='500'>
         <img src={require(`../assets/${picture}`)} alt='Card' className="picture"/>
         <div className='card-details'>
           <h1 className='card-name'>{name}</h1>

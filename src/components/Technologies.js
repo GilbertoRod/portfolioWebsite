@@ -53,11 +53,11 @@ function NameAndLogo({name,icon,color}){
 function Technologies() {
     return (
       <div className='tech-container'>
-        <div className='section-title'>
+        <div className='section-title' data-aos='zoom-in'>
           <p>TECHNOLOGIES</p>
         </div>
 
-        <div className='tech-logos'>
+        <div className='tech-logos' data-aos='wiggle'  >
           <NameAndLogo icon={faHtml5} name="HTML" color='#dd4b25'/>
           <NameAndLogo icon={faCss3Alt} name="CSS" color='#254bdd'/>
           <NameAndLogo icon={faJs} name="JavaScript" color='#f0dc4e'/>

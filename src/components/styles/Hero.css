@@ -57,6 +57,9 @@
     font-weight: bold;
     line-height:  50px;
 }
+
+
+
 .hero-title span{
     color:var(--primary);
 }
@@ -81,5 +84,27 @@
         align-items: center;
         padding-left: 20px;
         padding-right: 20px;
+    }
+  }
+  @media screen and (max-width:480px) {
+    .hero-img{
+        width: 100%;
+    }
+  }
+  @media screen and (max-width:400px) {
+    .hero-img{
+        width: 100%;
+    }
+    .greeting{
+        font-size: 15px;
+        
+    }
+    .hero-title{
+        font-size: 30px;
+        line-height:  30px;
+    }
+    /* located in index.css */
+    .section-title{
+        font-size: 20px;;
     }
   }

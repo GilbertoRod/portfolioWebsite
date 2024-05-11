@@ -28,7 +28,10 @@
   background-color: #0e0d1a;
 }
 
-
+.navbar a{
+  display: flex;
+  align-items: center;
+}
 
 .navbar p{
   font-family: Pacifico;

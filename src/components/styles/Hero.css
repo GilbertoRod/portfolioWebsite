@@ -1,8 +1,6 @@
 
 
 .hero-background-stars{
-
-
     background-image: url('../../assets/stars.png');
     background-size: cover;  
     animation: starsAnimation 600s linear infinite;
@@ -16,64 +14,55 @@
         background-position: -100vw 0;
     }
 
-
-
 }
 .hero-container{
     display: flex;
     justify-content: space-between;
     /* Filters the strength of the stars*/
-    background-color:#0d1323be;
+    background-color:#06090fbb;
     height: 75vh;
     overflow: hidden;
     padding-top: 100px;
-
     padding-bottom: 80px;
     padding-left: 80px;
     padding-right: 80px;
 }
 .intro{
     margin-right:30px;
-    
     border-radius: 10px;
     padding-bottom: 20px;
     
 }
 
 .greeting{
-    font-size: 18px;
+    font-size: 25px;
     color: white;
     margin-right: 12px;
     color:var(--primary);
     background-color: rgba(40, 94, 63, 0.334);
     display: inline-block;
     padding: 12px;
-    border-radius: 12px;
-}
-
-
-.academic-info{
-    margin-top: 25px;
+    border-radius: 7px;
+    font-family:Bungee, Poetsen One;
+    line-height: 20px;
 
     
 }
 
-.academic-info p{
-    line-height: 23px;
-    color: rgba(237, 237, 237, 0.611);
-    font-size: 18px;
-
-}
-
 .hero-title{
-   color: white;
-    font-size: 40px;
+    color: white;
+    font-size: 50px;
+    font-family: Bungee;
+    font-weight: bold;
+    line-height:  50px;
 }
 .hero-title span{
     color:var(--primary);
 }
 .hero-about{
     color: #a8a7ab;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
 }
 
 .hero-img{

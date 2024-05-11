@@ -3,18 +3,6 @@
   align-items: center;
   flex-direction: column;
 }
-
-.tech-title{
-  background-color: #1a1a24ea;
-  padding: 10px 20px;
-  font-size: 25px;
-  color: var(--primary);
-  border-radius: 10px;
-  box-shadow: 0 0 5px var(--primary);
-  border: 1px solid var(--primary);
-  margin: 20px 0px;
-  
-}
 .tech-logos{
   background-color: var(--primary);
   margin-top: 20px;
@@ -27,7 +15,7 @@
   max-width: 700px;
 }
 .technology{
-  background-color: #1a1a24ea;
+  background-color: #000000d0;
   color: white;
   height: 30px;
   padding: 10px;
@@ -43,5 +31,7 @@
 .technology p{
   padding: 0px;
   margin: 0px;
-  font-size: 14px;
+  font-size: 12px;
+  font-family: Josefin sans;
+  font-weight: bold;
 }

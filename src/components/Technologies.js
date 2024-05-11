@@ -29,24 +29,22 @@ function NameAndLogo({name,icon}){
 function Technologies() {
     return (
       <div className='tech-container'>
-        <div className='tech-title'>
-          TECHNOLOGIES
+        <div className='section-title'>
+          <p>TECHNOLOGIES</p>
         </div>
 
         <div className='tech-logos'>
           <NameAndLogo icon={faHtml5} name="HTML"/>
           <NameAndLogo icon={faCss3Alt} name="CSS"/>
           <NameAndLogo icon={faJs} name="JavaScript"/>
-          <NameAndLogo icon={faDatabase} name="SQL"/>
-          <NameAndLogo name="MongoDB"/>
           <NameAndLogo icon={faReact} name="React"/>
           <NameAndLogo icon={faNodeJs} name="Node"/>
+          <NameAndLogo icon={faGitSquare} name="git"/>
+          <NameAndLogo icon={faDatabase} name="SQL"/>
+          <NameAndLogo name="MongoDB"/>
           <NameAndLogo icon={faPython} name="Python"/>
           <NameAndLogo icon={faJava} name="Java"/>
-          <NameAndLogo icon={faGitSquare} name="git"/>
-
-
-
+          
         </div>
       </div>
     )

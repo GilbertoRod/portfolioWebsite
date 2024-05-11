@@ -16,7 +16,7 @@
   max-width: 700px;
 
 }
-@media screen and (max-width:710px) {
+@media screen and (max-width:765px) {
 .tech-logos{
   grid-template-columns: 1fr 1fr 1fr;
 }

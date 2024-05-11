@@ -71,14 +71,15 @@
     object-fit: contain;
     max-height:375px;
 }
-@media screen and (max-width:1076px) {
+@media screen and (max-width:1227px) {
     .intro{
         margin-right: 0px;
     }
     .hero-container{
-      flex-direction:column;
-      height: auto;
-      padding-left: 20px;
-      padding-right: 20px;
+        flex-direction:column;
+        height: auto;
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
     }
   }

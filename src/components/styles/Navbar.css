@@ -49,6 +49,26 @@
   font-family: Bungee, Poetsen One;
 
 }
+li:hover{
+  text-decoration: underline;
+  text-decoration-color: #33d978;
+  text-decoration-thickness: 3px;
+  animation: activeHover .15s;
+}
+@keyframes activeHover{
+  0%{
+    text-decoration: underline;
+    text-decoration-color: #33d97800;
+    text-decoration-thickness: 0px;
+  }
+  100%{
+    text-decoration: underline;
+    text-decoration-color: #33d978;
+    text-decoration-thickness: 3px;
+  }
+}
+
+
 
 @media screen and (max-width:1060px){
   .nav-container{

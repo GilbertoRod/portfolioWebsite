@@ -98,7 +98,10 @@ li:hover{
   }
 }
 @media screen and (max-width:700px){
-
+  .nav-container{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
   .hamburger{
     cursor: pointer;
     font-size: 25px;
@@ -115,7 +118,7 @@ li:hover{
     position: fixed;
     background-color: #0e0d1afd;
     top: -20px;
-    right: -40px;
+
     bottom: -100vh;
     display: flex;
     gap: 40px;
@@ -127,7 +130,7 @@ li:hover{
     box-shadow: 0px 0px 10px var(--primary);
     font-family: Bungee, Poetsen One;
     transition: right 0.3s ease-in-out;
-    right: -1000%; 
+    right: -200%; 
     border: 1px inset rgba(255, 255, 255, 0.197);
 
     border-top-left-radius: 10px;

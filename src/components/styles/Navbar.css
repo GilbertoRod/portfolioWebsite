@@ -28,6 +28,7 @@
   background-color: #0e0d1a;
 }
 
+
 .navbar a{
   display: flex;
   align-items: center;
@@ -72,6 +73,17 @@ li:hover{
 }
 
 
+.hamburger{
+  display: none;
+  position: fixed;
+  right: 20px;
+  top: 15px;
+  z-index: 20;
+}
+
+.sidebar{
+  display: none;
+}
 
 @media screen and (max-width:1060px){
   .nav-container{
@@ -82,17 +94,50 @@ li:hover{
 
 @media screen and (max-width:880px){
   .nav-container ul{
-    width: 50%;
+    width: 40%;
   }
 }
-@media screen and (max-width:560px){
-  .nav-container{
-    margin-left: 20px;
-    margin-right: 20px;
+@media screen and (max-width:700px){
+
+  .hamburger{
+    cursor: pointer;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
   }
+  
   .nav-container ul{
-    width: 70%;
+    display: none;
   }
+  .sidebar{
+    position: fixed;
+    background-color: #0e0d1afd;
+    top: -20px;
+    right: -40px;
+    bottom: -100vh;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 300px;
+    width: 100%;
+    box-shadow: 0px 0px 10px var(--primary);
+    font-family: Bungee, Poetsen One;
+    transition: right 0.3s ease-in-out;
+    right: -1000%; 
+    border: 1px inset rgba(255, 255, 255, 0.197);
 
-
+    border-top-left-radius: 10px;
+  }
+  .sidebar.active {
+    right: -40px; /* Slide it into view */
+  }
+.sidebar h1{
+  border: 1px inset var(--primary);
+  margin: 0px;
+  padding: 10px;
+}
 }

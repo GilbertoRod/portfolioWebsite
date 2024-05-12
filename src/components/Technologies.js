@@ -9,7 +9,7 @@ import { java } from '../assets/javaIcon';
 import { flask } from '../assets/flaskIcon';
 
 
-function NameAndLogo({name,icon,color}){
+export function TechUtility({name,icon,color}){
   if (name==="MongoDB"){
     return(
     <div className='technology'>
@@ -58,18 +58,18 @@ function Technologies() {
         </div>
 
         <div className='tech-logos' data-aos='wiggle'  >
-          <NameAndLogo icon={faHtml5} name="HTML" color='#dd4b25'/>
-          <NameAndLogo icon={faCss3Alt} name="CSS" color='#254bdd'/>
-          <NameAndLogo icon={faJs} name="JavaScript" color='#f0dc4e'/>
-          <NameAndLogo icon={faReact} name="React" color='#00d8ff'/>
-          <NameAndLogo icon={faNodeJs} name="Node" color='#529f41'/>
-          <NameAndLogo icon={faGitAlt} name="git" color='#f05030'/>
-          <NameAndLogo icon={faDatabase} name="SQL" color='#e06c1a'/>
-          <NameAndLogo name="MongoDB"/>
-          <NameAndLogo name="Python"/>
-          <NameAndLogo name="Flask"/>
-          <NameAndLogo name="Java"/>
-          <NameAndLogo icon={faPhp} name="php" color='#7377ad'/>
+          <TechUtility icon={faHtml5} name="HTML" color='#dd4b25'/>
+          <TechUtility icon={faCss3Alt} name="CSS" color='#254bdd'/>
+          <TechUtility icon={faJs} name="JavaScript" color='#f0dc4e'/>
+          <TechUtility icon={faReact} name="React" color='#00d8ff'/>
+          <TechUtility icon={faNodeJs} name="Node" color='#529f41'/>
+          <TechUtility icon={faGitAlt} name="git" color='#f05030'/>
+          <TechUtility icon={faDatabase} name="SQL" color='#e06c1a'/>
+          <TechUtility name="MongoDB"/>
+          <TechUtility name="Python"/>
+          <TechUtility name="Flask"/>
+          <TechUtility name="Java"/>
+          <TechUtility icon={faPhp} name="php" color='#7377ad'/>
 
           
         </div>

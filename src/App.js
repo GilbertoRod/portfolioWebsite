@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Technologies from "./components/Technologies";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import AOS styles
+import Footer from "./components/Footer";
 function App() {
 
   useEffect(() => {
@@ -16,7 +17,7 @@ function App() {
       <Hero/>
       <Technologies/>
       <Projects/>
-
+      <Footer/>
     </div>
   );
 }

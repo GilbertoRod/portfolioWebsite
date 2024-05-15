@@ -22,7 +22,7 @@ function Navbar() {
               </div>
               <p>GR</p>
               <ul>
-                  <a href='https://drive.google.com/file/d/1nahaf3Nlh-BVS0Wz7I9zVJ5NOMHHKWso/view?usp=sharing' target='_blank' rel='noreferrer'>
+                  <a href='https://drive.google.com/file/d/1MbkVH-ExzklaHaGDru2L3qjV-L_mJxDQ/view?usp=share_link' target='_blank' rel='noreferrer'>
                       <li>
                           Resume
                       </li>
@@ -35,7 +35,7 @@ function Navbar() {
               </ul>
 
               <div className={`sidebar ${sidebar ? 'active' : ''}`}>
-                      <a href='https://drive.google.com/file/d/1nahaf3Nlh-BVS0Wz7I9zVJ5NOMHHKWso/view?usp=sharing' target='_blank' rel='noreferrer'>
+                      <a href='https://drive.google.com/file/d/1MbkVH-ExzklaHaGDru2L3qjV-L_mJxDQ/view?usp=share_link'>
                           <h1>Resume</h1>
                         </a>
 

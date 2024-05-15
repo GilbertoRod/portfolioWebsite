@@ -4,7 +4,7 @@ function Hero() {
     return (
         <div className='hero-background-stars'>
             <div className='hero-container'>
-                <div className='intro' data-aos='fade-right' data-aos-duration='1500'>
+                <div className='intro'>
                     <div className='greeting' >
                         Hello There! I'm <span style={{color:"white"}}>Gilberto</span>
                     </div>
@@ -17,7 +17,7 @@ function Hero() {
                     </div>
 
                 </div>
-                <img src={require('../assets/Avatar.png')} alt='Avatar Pic' className='hero-img' data-aos='fade-left' data-aos-duration='1500'/>
+                <img src={require('../assets/Avatar.png')} alt='Avatar Pic' className='hero-img'/>
             </div>
         </div>
     )

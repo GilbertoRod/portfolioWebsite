@@ -55,7 +55,7 @@
     display: inline-block;
     padding: 12px;
     border-radius: 7px;
-    font-family:Bungee, Poetsen One;
+    font-family:Bungee, Poetsen One, Impact, fantasy;
     line-height: 25px;
 
     
@@ -64,7 +64,7 @@
 .hero-title{
     color: white;
     font-size: 50px;
-    font-family: Bungee;
+    font-family:Bungee, Poetsen One, Impact, fantasy;
     font-weight: bold;
     line-height:  50px;
 }

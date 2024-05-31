@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
       <div className='nav-container'>
-          <div className='navbar' data-aos='zoom-in-right' data-aos-duration='800' >
+          <div className='navbar'>
               <div className='hamburger' onClick={toggleSidebar}>
                   {!sidebar ? <FontAwesomeIcon icon={faBarsStaggered} /> :
                       <div onClick={toggleSidebar}>

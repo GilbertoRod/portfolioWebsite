@@ -2,7 +2,10 @@ import './styles/Hero.css'
 
 function Hero() {
     return (
-        <div className='hero-background-stars'>
+        <div className="hero">
+            <div className="hero-background-stars">
+                <img className="stars" src={require('../assets/stars.png')}/>
+            </div>
             <div className='hero-container'>
                 <div className='intro'>
                     <div className='greeting' >
@@ -20,6 +23,7 @@ function Hero() {
                 <img src={require('../assets/Avatar.png')} alt='Avatar Pic' className='hero-img'/>
             </div>
         </div>
+
     )
 }
 

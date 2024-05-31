@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oxygen:wght@300;400;700&family=Pacifico&family=Poetsen+One&display=swap');
+
 
 :root{
   --primary:#33d979;
@@ -50,4 +50,23 @@ a{
 a:visited{
   text-decoration: none;
   color: white;
+}
+
+
+
+@font-face {
+  font-family:Pacifico ;
+  src: url('./assets/fonts/Pacifico-Regular.ttf');
+}
+@font-face {
+  font-family:Bungee ;
+  src: url('./assets/fonts/Bungee-Regular.ttf');
+}
+@font-face {
+  font-family:Josefin sans ;
+  src: url('./assets/fonts/JosefinSans-Regular.ttf');
+}
+@font-face {
+  font-family: Poetsen One;
+  src: url('./assets/fonts/PoetsenOne-Regular.ttf');
 }

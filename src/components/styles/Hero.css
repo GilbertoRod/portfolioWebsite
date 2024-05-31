@@ -3,8 +3,7 @@
  
     display: flex;
     justify-content: space-between;
-    /* Filters the strength of the stars*/
-    background-color:#06090fbb;
+
     min-height: 75vh;
     overflow: hidden;
     padding-top: 100px;

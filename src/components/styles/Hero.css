@@ -74,7 +74,28 @@
     font-family: 'Josefin Sans';
     font-size: 20px;
 }
-
+.hero-about button{
+    padding: 0px 10px;
+    font-size: 15px;
+    background-color: #0e0d1a;
+    border: none;
+    font-family:Bungee, Poetsen One, Impact, fantasy;
+    color: white;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+.hero-about button:hover{
+    background-color: #272541;
+}
+.hero-resume-btn{
+    margin-left: 20px;
+}
+.svg-hero-icon{
+    margin-right: 10px;
+}
 .hero-img{
     max-width: 450px;
     object-fit: contain;
@@ -108,5 +129,8 @@
     /* located in index.css */
     .section-title{
         font-size: 20px;;
+    }
+    .hero-about button{
+        font-size: 13px;
     }
   }

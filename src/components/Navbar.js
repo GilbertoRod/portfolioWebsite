@@ -27,6 +27,7 @@ function Navbar() {
                           Resume
                       </li>
                   </a>
+                  
                   <a href="mailto:betovenr17@gmail.com" target="_blank" rel='noreferrer'>
                       <li>
                           Contact

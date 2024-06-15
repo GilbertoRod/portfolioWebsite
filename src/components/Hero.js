@@ -16,8 +16,7 @@ function Hero() {
                     </div>
                     <div className='hero-about'>
                         <p>I'm a 23 year old Software Engineer with a Bachelor's Degree in Computer Science. I'm experienced in working with individuals and businesses to help create their product websites. I also have experience in leading and collaborating with other software engineers to complete projects within given deadlines.</p>
-                        <a href='https://github.com/GilbertoRod'><button className='hero-github-btn'><FontAwesomeIcon className='svg-hero-icon' icon={faGithub}/> GitHub</button></a>
-                        <a href='https://drive.google.com/file/d/1MbkVH-ExzklaHaGDru2L3qjV-L_mJxDQ/view?usp=share_link'><button className='hero-resume-btn'><FontAwesomeIcon className='svg-hero-icon' icon={faFile}/> Resume</button></a>
+
 
                     </div>
 
